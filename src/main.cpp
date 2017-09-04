@@ -90,6 +90,7 @@ int main()
           		iss >> timestamp;
           		meas_package.timestamp_ = timestamp;
           }
+            //initialize ground truth values
           float x_gt;
     	  float y_gt;
     	  float vx_gt;
